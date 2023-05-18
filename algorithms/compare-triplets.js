@@ -7,3 +7,16 @@
 
 // The task is to find their comparison points by comparing 
 // a[0] with b[0], a[1] with b[1], and a[2] with b[2].
+
+//Pseudocode
+    //Declare 2 different arrays to compare
+    //Create conditional statements with different point attributions depending if conditions are met or not
+    //Loop through each array
+
+    function compareTriplets(a, b) {
+        for (let i = 0; i < a.length; i++) {
+            for (let n = 0; n < b.length; n++) {
+                if 
+            }
+        }
+    }
