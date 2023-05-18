@@ -14,9 +14,22 @@
     //Loop through each array
 
     function compareTriplets(a, b) {
+        let array = [];
+        let alice = 0;
+        let bob = 0;
         for (let i = 0; i < a.length; i++) {
             for (let n = 0; n < b.length; n++) {
-                if 
+                if (a[i] > b[n]) {
+                    alice += 1;
+                } if (a[i] < b[n]) {
+                    bob += 1;
+                } if (a[i] = b[n]) {
+                    alice += 0;
+                    bob += 0;
+                }
             }
+            array.push(alice);
+            array.push(bob);
         }
+        return array;
     }
