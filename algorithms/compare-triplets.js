@@ -21,15 +21,12 @@
             for (let n = 0; n < b.length; n++) {
                 if (a[i] > b[n]) {
                     alice += 1;
-                } if (a[i] < b[n]) {
+                } else if (a[i] < b[n]) {
                     bob += 1;
-                } if (a[i] = b[n]) {
-                    alice += 0;
-                    bob += 0;
                 }
             }
-            array.push(alice);
-            array.push(bob);
         }
+        array.push(alice);
+        array.push(bob);
         return array;
     }
