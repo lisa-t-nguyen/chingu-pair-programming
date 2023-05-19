@@ -17,13 +17,11 @@
         let array = [];
         let alice = 0;
         let bob = 0;
-        for (let i = 0; i < a.length; i++) {
-            for (let n = 0; n < b.length; n++) {
-                if (a[i] > b[n]) {
-                    alice += 1;
-                } else if (a[i] < b[n]) {
-                    bob += 1;
-                }
+        for (let i = 0; i < 3; i++) {
+            if (a[i] > b[i]) {
+                alice += 1;
+            } else if (a[i] < b[i]) {
+                bob += 1;
             }
         }
         array.push(alice);
