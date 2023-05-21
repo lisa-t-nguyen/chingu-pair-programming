@@ -11,3 +11,12 @@
 // int arr[n][m]: an array of integers
 // Return
 // int: the absolute diagonal difference
+
+function diagonalDifference(ar) {
+let n = ar.length; 
+let d1 = 0;
+let d2 = 0;
+
+for (let i=0; i<n; i++)
+    for (let j=n; j<n; j--)
+}
