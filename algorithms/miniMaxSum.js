@@ -15,3 +15,11 @@
 // Pop off the smallest number in the array and sum up all numbers 
 // Return both sums
 
+function miniMaxSum(arr) {
+    const largestNumber = Math.max(arr);
+    const smallestNumber = Math.min(arr);
+
+    for (let i = 0; i < arr.length; i++) {
+        
+    }
+}
