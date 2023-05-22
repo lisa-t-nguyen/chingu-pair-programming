@@ -1,7 +1,7 @@
 //Return a staircase shape made of #s where n = the length of the base, and the height of the staircase
 //All staircase tiers < n preceded by amount of spaces: n - tier length
 
-function staircase(n) {
+function staircase(height) {
     for (let level = 1; level <= height; level++) {
         let spaces = height - level;
         let hashTag = level;
