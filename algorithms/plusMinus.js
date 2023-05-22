@@ -23,11 +23,11 @@ function plusMinus(arr) {
     for (let i = 0; i < n; i++) {
         const num = arr[i];
         if (Math.sign(num) === 1) {
-            positive++
+            positive++;
         } else if (Math.sign(num) === -1) {
-            negative++
+            negative++;
         } else {
-            zero++
+            zero++;
         }
     }
 
@@ -35,5 +35,7 @@ function plusMinus(arr) {
     const negativeRatio = negative / n;
     const zeroRatio = zero / n;
 
-    return positiveRatio.toFixed(6), negativeRatio.toFixed(6), zeroRatio.toFixed(6);
+    console.log(positiveRatio.toFixed(6)); 
+    console.log(negativeRatio.toFixed(6)); 
+    console.log(zeroRatio.toFixed(6));
 }
