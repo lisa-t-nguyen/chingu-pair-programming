@@ -16,10 +16,18 @@
 // Return both sums
 
 function miniMaxSum(arr) {
-    const largestNumber = Math.max(arr);
-    const smallestNumber = Math.min(arr);
-
-    for (let i = 0; i < arr.length; i++) {
+    arr.sort((a, b) => {
+        if  (a > b) {
+            return 1
+        }
+        if (a < b) {
+            return -1
+        }
+        return 0;
+        });
         
-    }
+     const lowestSum = arr[0] + arr[1] + arr[2] + arr[3];
+     const highestSum = arr[1] + arr[2] + arr[3] + arr[4];
+     
+     console.log(lowestSum, highestSum);
 }
